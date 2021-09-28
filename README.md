@@ -88,3 +88,6 @@ On browser call your domain with this container as you .env file with parameter 
 ```
 <IMAGE_PROCESSOR_DOMAIN>/bros.jpg?quality=50&webp=1
 ```
+
+### Sample page with few features running
+On browser goes to /doc/index.html and you can see the images converted to webp and with few features running

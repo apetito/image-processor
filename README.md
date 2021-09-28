@@ -11,6 +11,10 @@ This README it's about Image Processor
 * Docker-ce 17.9+
 * Docker-compose +1.5
 
+
+### Third party libraries
+* Bild - https://github.com/anthonynsimon/bild
+* Webp - https://github.com/chai2010/webp
 ---
 
 ### Usage ###

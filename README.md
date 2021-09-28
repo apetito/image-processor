@@ -86,5 +86,5 @@ $ sh run-local.sh
 ### Do Request ###
 On browser call your domain with this container as you .env file with parameter to load image, ex: 
 ```
-<IMAGE_PROCESSOR_DOMAIN>/files/2021-02/1122x350-banner-home-montagem-expressa.jpg?grayscale=true&convertToWebp=1
+<IMAGE_PROCESSOR_DOMAIN>/bros.jpg?quality=50&webp=1
 ```

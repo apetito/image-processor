@@ -1,0 +1,22 @@
+version: '3'
+services:
+  app:
+    build:
+      context: .
+      dockerfile: ./config/Dockerfile
+    volumes:
+      - ".:/go/src/imageprocessor/"
+    container_name: imageprocessor
+    environment:
+      - imageBaseUrl=$IMAGE_BASE_URL
+    tty: true
+    ports:
+      - "80"
+    networks:
+      apetito-imageprocessor:
+        aliases:
+        - $IMAGE_PROCESSOR_DOMAIN
+        ipv4_address: $IMAGE_PROCESSOR_IP
+networks:
+  apetito-imageprocessor:
+    external: true
